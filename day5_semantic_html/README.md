@@ -18,4 +18,26 @@
 * ```<aside>```	Sidebars or callout boxes tangentially related to the main text.	Great for pull quotes, ads, or related article links.
 * ```<footer>```	Bottom of a page or section containing copyright, legal, or contact info.	Placed at the very end of its parent container.
 
+> Here is a complete, categorical reference list of the most important semantic HTML tags and exactly what they communicate to browsers, search engines, and screen readers.
+
+### 🧱 Layout & Structure Elements
+
+1. These tags define the structural bones of your page, replacing generic layout <div> elements.
+* `**: Defines a container for introductory content, logos, navigation, or introductory headers.
+*  ```<nav>:``` Blocks out a set of primary navigation links.
+* ```<main>:``` Identifies the primary, dominant content unique to that single document. (Only one allowed per page).
+* `**: Groups related content together into a distinct theme or chapter.
+* ```<article>:``` Encloses a completely self-contained piece of content that could be distributed independently (e.g., a blog post, interactive widget, or product card).
+* ```<aside>:``` Identifies content that is tangentially related to the main content (e.g., sidebars, advertising blocks, or callout notes).
+* ```<footer>:``` Marks the footer section of a page or individual section, typically holding copyright information, site maps, or contact links.
+
+### 📝 Text & Inline Element Meanings
+
+2. These tags give specific context to the words and characters inside your paragraphs.
+* ```<h1> to <h6>:``` Establishes a strict structural hierarchy of topics. ```<h1> is the main topic; <h2> through <h6> represent sub-topics.```
+* ```<em>:``` Applies linguistic stress emphasis to a word or phrase, changing the vocal meaning of the sentence.
+* ```<strong>:``` Marks text of crucial, urgent importance, high priority, or seriousness.
+* ```<mark>:``` Highlights text to show its relevance in a specific context or search result (like a physical highlighter marker)
+* ```<time>:``` Converts human text into a machine-readable date/time string using the datetime attribute.
+
 
